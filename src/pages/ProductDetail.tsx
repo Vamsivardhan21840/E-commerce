@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { products } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/context/CartContext";
-import { NotFound } from "./NotFound";
+import NotFound from "./NotFound";
 
 const ProductDetail = () => {
   const { id } = useParams();
